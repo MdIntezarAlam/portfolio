@@ -16,7 +16,7 @@
 }
 
 .card span:nth-of-type(2) {
-  color: var(--gray);
+  /* color: var(--gray); */
   font-size: 17px;
 }
 
