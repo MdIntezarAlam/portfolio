@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import a from '../../image/a.jpeg'
+import a from "../../image/a.jpeg";
 
 const About = () => {
   const clients = [
@@ -16,11 +16,12 @@ const About = () => {
     {
       img: a,
       review:
-        "Working as a Front-end Developer to obtain a responsible and challenging Frontend Developer’s position where my education and work experience will have valuable application. To take a challenging role as Front End Web Developer in a highly technical company where I could utilize my skills in Web Design, Front-end Web Development, Software,",
+        "I am life long lerner and enjoy learning new stuff! Bellow are some programming languages, toolkits, framsworks and libraries that i worked with and like. Some of them I control better than the other.Frontend development using modern technology such as React. I follow the best folder structure so that code will be more re-usable, scalable and flexibile. I mainly focus on code quality and performance. Redux or redux toolkit, localstorage and cookies are used for the state management.",
     },
     {
       img: a,
-      review: "I am very Honest Person & positive Thinking",
+      review:
+        "Working as a Front-end Developer to obtain a responsible and challenging Frontend Developer’s position where my education and work experience will have valuable application. To take a challenging role as Front End Web Developer in a highly technical company where I could utilize my skills in Web Design, Front-end Web Development, Software,",
     },
   ];
 
