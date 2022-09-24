@@ -26,7 +26,8 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>Skills</span>
-        <span>Html, Css, JavaScript, React Js , TypeScript, Git...</span>
+        <p style={{fontSize:'18px', }}>Frontend & Backend Developer</p>
+        <span style={{fontSize:'16px'}}>Html, Css, JavaScript, React Js,TypeScript, Node Js, Express Js, MongoDB Git, GitHub, </span>
         <a href={oneres} download>
           <button className="button s-button">Download CV</button>
         </a>
