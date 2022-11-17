@@ -48,12 +48,48 @@
 .i-icons > *:hover {
   cursor: pointer;
 }
-.my_img{
+/* .my_img{
   width: 220px;
   height: 220px;
   border-radius: 50%;
   top: 10%;
+} */
+
+
+/*  */
+.my_img {
+  width: 400px;
+  height: 400px;
+  pointer-events: none;
+  border-radius: 50%;
+  top: 2%;
+  right: 10px;
 }
+@media (prefers-reduced-motion: no-preference) {
+  .my_img {
+    animation: my_img-spin infinite 20s linear;
+  }
+}
+@keyframes my_img-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*  */
+
+
+
+
+
+
+
+
+
+
 /* right side styling */
 .i-right {
   flex: 1;
