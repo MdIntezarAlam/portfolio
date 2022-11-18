@@ -8,6 +8,7 @@ import pr2 from "../../image/pr2.PNG";
 import pr3 from "../../image/pr3.PNG";
 import pr4 from "../../image/pr4.PNG";
 import pr5 from "../../image/pr5.PNG";
+import pr8 from "../../image/pr8.PNG";
 
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -24,6 +25,9 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
+        <SwiperSlide>
+          <img src={pr8} alt="" />
+        </SwiperSlide>
         <SwiperSlide>
           <img src={pr2} alt="" className="img_1" />
         </SwiperSlide>
