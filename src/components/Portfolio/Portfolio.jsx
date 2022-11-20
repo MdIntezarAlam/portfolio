@@ -7,7 +7,7 @@ import pr1 from "../../image/pr1.PNG";
 import pr2 from "../../image/pr2.PNG";
 import pr3 from "../../image/pr3.PNG";
 import pr4 from "../../image/pr4.PNG";
-import pr5 from "../../image/pr5.PNG";
+import p6 from "../../image/p6.jpeg";
 import pr8 from "../../image/pr8.PNG";
 
 const Portfolio = () => {
@@ -41,8 +41,8 @@ const Portfolio = () => {
           <img src={pr4} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={pr5} alt="" />
-        </SwiperSlide>
+        <img src={p6} alt="" />
+      </SwiperSlide>
       </Swiper>
     </div>
   );
