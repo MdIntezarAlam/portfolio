@@ -30,8 +30,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hii I Am</span>
           <span>Md Intezar Alam</span>
           <span>
-           Front-end Developer with good experience in web designing and
-           development and I have skills in this field which is  Html,Css, JavaScript, React Js, Git, GitHub, Node Js, Express Js & MongoDB
+            Frontend development using modern technology such as React. I follow the best folder structure so that code will be more re-usable, scalable and flexibile. I mainly focus on code quality and performance. Redux or redux toolkit, localstorage and cookies are used for the state management. Html,Css, JavaScript, React Js, Git, GitHub, Node Js, Express Js & MongoDB
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
