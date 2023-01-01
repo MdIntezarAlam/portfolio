@@ -3,11 +3,12 @@
   display: flex;
   height: 30rem;
   margin-bottom: 8rem;
-  margin-top: 9rem;
+  margin-top: 3rem;
   margin-bottom: 13rem;
-  /* scroll view */
   padding-top: 3rem;
+  scroll-behavior: smooth;
 }
+
 /* left side */
 .awesome {
   display: flex;
@@ -16,31 +17,50 @@
   /* gap: 20px; */
 }
 
-.awesome > :nth-child(1) {
+.awesome> :nth-child(1) {
   color: var(--black);
   font-size: 2.5rem;
   font-weight: bold;
+
+  background: #CA4246;
+  background-color: #CA4246;
+  background: conic-gradient(#CA4246 16.666%, #E16541 16.666%, #E16541 33.333%, #F18F43 33.333%, #F18F43 50%, #8B9862 50%, #8B9862 66.666%, #476098 66.666%, #476098 83.333%, #A7489B 83.333%);
+  background-size: 57%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-text-animation-rev 0.5s ease forwards;
+  cursor: pointer;
 }
-.awesome > :nth-child(2) {
-  color: var(--orange);
+
+.awesome> :nth-child(2) {
+  /* color: var(--orange); */
+  color: rgb(113, 250, 15);
   font-size: 2.5rem;
   font-weight: bold;
+  background: -webkit-linear-gradient(rgb(69, 65, 70), rgb(254, 14, 14));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.awesome > :nth-child(3) {
+
+.awesome> :nth-child(3) {
   color: var(--gray);
   font-size: 14px;
   margin-top: 1rem;
 }
+
 .s-button {
   width: 8rem;
   height: 2rem;
   margin-top: 1rem;
 }
+
 /* right sided */
 .cards {
   position: relative;
 }
-.cards > * {
+
+.cards>* {
   position: absolute;
 }
 
@@ -69,7 +89,8 @@
     flex-direction: column;
     gap: 17rem;
   }
-  .cards > * {
+
+  .cards>* {
     position: static;
   }
 }

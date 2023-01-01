@@ -8,11 +8,11 @@
   align-items: center;
   width: 10rem;
   text-align: center;
-  background: rgba(255, 255, 255, 0.26);
-  border: 7px solid var(--orangeCard);
-  box-shadow: var(--boxShadow);
   border-radius: 20px;
   padding: 0px 26px 2rem 26px;
+  background-color: rgb(164, 164, 164);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
 
 .card span:nth-of-type(2) {

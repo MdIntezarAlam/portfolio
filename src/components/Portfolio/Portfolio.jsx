@@ -15,10 +15,8 @@ const Portfolio = () => {
   const darkMode = theme.state.darkMode;
   return (
     <div className="portfolio" id="portfolio">
-      {/* heading */}
-      <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
+      <span style={{ color: darkMode ? "white" : "" }}>My Self based Projects</span>
       <span>Portfolio</span>
-      {/* slider */}
       <Swiper
         spaceBetween={30}
         slidesPerView={3}
@@ -27,9 +25,6 @@ const Portfolio = () => {
       >
         <SwiperSlide>
           <img src={pr8} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={pr2} alt="" className="img_1" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={pr1} alt="" />
@@ -41,8 +36,11 @@ const Portfolio = () => {
           <img src={pr4} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src={p6} alt="" />
-      </SwiperSlide>
+          <img src={p6} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={pr2} alt="" className="img_1" />
+        </SwiperSlide>
       </Swiper>
     </div>
   );

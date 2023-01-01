@@ -25,4 +25,7 @@
   .f-content{
     transform: scale(.5);
   }
+  .ftr{
+    height: 400px;
+  }
 }

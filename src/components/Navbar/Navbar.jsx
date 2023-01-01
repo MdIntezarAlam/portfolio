@@ -2,6 +2,7 @@ import React from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
+
 const navbar = () => {
   return (
     <div className="n-wrapper" id="Navbar">
@@ -22,11 +23,6 @@ const navbar = () => {
             <li>
               <Link to="services" spy={true} smooth={true}>
                 Serivces
-              </Link>
-            </li>
-            <li>
-              <Link to="works" spy={true} smooth={true}>
-                Experience
               </Link>
             </li>
             <li>

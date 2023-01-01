@@ -7,13 +7,10 @@ import js from "../../image/js.jpg";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import oneres from '../Services/oneres.pdf'
-// import
 const Services = () => {
-  // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
-  // transition
   const transition = {
     duration: 1,
     type: "spring",
@@ -26,8 +23,8 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>Skills</span>
-        <p style={{fontSize:'18px', }}>Frontend & Backend Developer</p>
-        <span style={{fontSize:'16px'}}>Html, Css, JavaScript, React Js,TypeScript, Node Js, Express Js, MongoDB Git, GitHub, </span>
+        <p style={{ fontSize: '25px', }}>Frontend /Designer/Developer</p>
+        <span style={{ fontSize: '19px', lineHeight:'28px' }}>Html, Css, JavaScript, React Js,React Native, TypeScript, Node Js, Express Js, MongoDB Git, GitHub, </span>
         <a href={oneres} download>
           <button className="button s-button">Download CV</button>
         </a>
@@ -56,7 +53,7 @@ const Services = () => {
           <Card
             emoji={r}
             heading={"Developer"}
-            detail={"Html, CSS, JavaScript, Bootstrap, React Js, Typescript..."}
+            detail={"Html, CSS, JavaScript, Bootstrap, React Js, React Native, Typescript..."}
           />
         </motion.div>
         {/* 3rd */}
