@@ -133,6 +133,9 @@
 .i-right> :nth-child(3) {
   transform: scale(1.4);
   left: 38%;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 
