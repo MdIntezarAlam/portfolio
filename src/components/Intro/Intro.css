@@ -108,6 +108,7 @@
 .i-right>* {
   position: absolute;
   z-index: 1;
+  background-color: #000;
 }
 
 .i-right> :nth-child(1) {
